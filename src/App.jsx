@@ -1,12 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import Diff from "./Diff";
 
 const App = () => {
-  return (
-    <div>
-      <Diff />
-    </div>
-  );
+  return <Diff />;
 };
 
 export default App;
