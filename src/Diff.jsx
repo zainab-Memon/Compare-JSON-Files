@@ -81,7 +81,7 @@ const Diff = () => {
 
         <div className="grid md:grid-cols-2 md:justify-center items-center md:mx-14">
           <div className=" flex flex-col">
-            <h2 className="font-bold text-2xl text-center">JSON FILE 1</h2>
+            <h2 className="font-bold text-2xl text-center pt-5">JSON FILE 1</h2>
             <div className="h-[50vh] m-2 bg-white border-2 border-gray-6-0 p-1">
               <textarea
                 type="text"
@@ -93,7 +93,7 @@ const Diff = () => {
             </div>
           </div>
           <div className=" flex flex-col">
-            <h2 className="font-bold text-2xl text-center">JSON FILE 2</h2>
+            <h2 className="font-bold text-2xl text-center pt-5">JSON FILE 2</h2>
             <div className="h-[50vh] m-2 bg-white border-2 border-gray-6-0 p-1">
               <textarea
                 type="text"
